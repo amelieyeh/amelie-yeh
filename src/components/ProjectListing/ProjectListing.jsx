@@ -22,8 +22,7 @@ export default class ProjectListing extends React.PureComponent {
   }
   render() {
     const List = this.getList();
-    let re = this.props.projectEdges[0]
-    console.log(re)
+    
     return (
       <div className={styles.base}>
         {List.map(project => (
@@ -45,7 +44,7 @@ export default class ProjectListing extends React.PureComponent {
                     />
 					        )}
                 </Palette>
-                <div className={styles.desc}>
+                <div className={styles.desc}>                
                   <h2 className={styles.title} key={project.title}>
                     {project.title}
                   </h2>

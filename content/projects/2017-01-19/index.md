@@ -3,14 +3,14 @@ client: "Newsroom"
 title: "iCook Newsroom"
 cover: "./newsroom_icook.png"
 date: "2017-01-19"
-service: "Web Development"
+service: "Back-End Development"
 ---
 
 # Overview
 An official PR website which is built using Ruby on Rails launched in 2014. 
 
 ### Skills
-Ruby on Rails
+- Ruby on Rails
 
 ![](./newsroom_icook.png)
 

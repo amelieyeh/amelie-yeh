@@ -59,6 +59,7 @@
 
 .desc {
   align-self: center;
+  text-shadow: $black 0em 0em 0.15em;
 
   h2 {
     margin-bottom: .5rem;
@@ -69,7 +70,6 @@
     font-size: 1.4rem;
   }
 }
-
 
 .image {
 	> div {
