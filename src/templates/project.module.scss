@@ -1,0 +1,82 @@
+@import '../../config/variables';
+
+.content {
+	margin: 0 auto;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+  line-height: 1.6rem;
+  font-size: 1.12rem;
+	max-width: 80%;
+	color: $grey;
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+      background-size: 100% 40%;
+      text-decoration: none;
+      font-weight: 600;
+      color: $black;
+    }
+  }
+}
+
+.headerWrapper {
+	min-height: 25rem;
+	position: relative;
+	width: 100%;
+
+	+ div {
+		background-color: $white;
+	}
+}
+
+.header {
+	background-color: $brand-primary;
+	color: $black;
+	height: 25rem;
+	padding: 6rem $distance;
+	position: absolute;
+	text-align: center;
+	transition: all .5s;
+	width: 100%;
+}
+
+.title {
+	font-size: 1.5rem;
+
+  h1 {
+    color: $black;
+	  font-size: 5rem;
+	  margin: 1.5rem 0;
+  }
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.infoBlock {
+	display: flex;
+	flex-direction: column;
+	margin: $distance $distance;
+	text-align: left;
+}
+
+.top {
+	font-size: 80%;
+	margin-bottom: .5rem;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.bottom {
+	font-size: 125%;
+}
+
+.project-container .container {
+	
+}

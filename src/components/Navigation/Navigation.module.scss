@@ -1,0 +1,119 @@
+@import '../../../config/variables';
+
+.link-yellow-line {
+  background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+  background-size: 100% 40%;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.wrapper {
+	display: flex;
+
+	a {
+		color: $body-color;
+    text-decoration: none;
+
+		&:hover {
+			color: $brand-primary;
+		}
+	}
+}
+
+.navigation, .name, .socialMedia {
+	display: flex;
+	flex: 1;
+}
+
+.navigation > span {
+	margin-left: auto;
+}
+
+.socialMedia > span {
+	margin-left: auto;
+}
+
+.navigation {
+	a {
+    color: $black;
+    text-decoration: none;
+
+    &:not(:first-child) {
+    	margin-left: 1rem;
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+      @extend .link-yellow-line;
+      color: $black;
+    }
+  }
+}
+
+.name {
+	h3 {
+		font-size: 23px !important;
+		margin-bottom: 0 !important;
+	}
+
+	a {
+		&:hover, &:focus {
+			color: $body-color;
+			text-decoration: none;
+		}
+	}
+}
+
+.socialMedia {
+	a {
+		font-size: 1.5rem;
+	}
+
+	a:not(:first-child) {
+		margin-left: 1rem;
+	}
+}
+
+.mobileNav {
+	background-color: $background-color;
+	display: none;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+
+	@include for-phone-only {
+		display: block;
+	}
+
+	a {
+		color: $black;
+		font-size: 200%;
+		margin-bottom: 2rem;
+
+		&:hover {
+			color: $black;
+		}
+	}
+}
+
+.mobileNavName {
+	left: 1rem;
+	position: fixed;
+	top: 1rem;
+
+	h3 {
+		font-size: 23px !important;
+		margin-bottom: 0 !important;
+	}
+}
+
+.mobileNavSocialMedia {
+	font-size: 1.5rem;
+	margin-top: 6rem;
+
+	a:not(:first-child) {
+		margin-left: 1.5rem;
+	}
+}

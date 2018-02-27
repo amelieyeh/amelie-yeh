@@ -1,0 +1,55 @@
+@import '../../../config/variables';
+
+$transition-headroom: all .35s ease-in-out;
+
+.headroom-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+
+	@include for-phone-only() {
+		display: none;
+	}
+}
+
+.headroom {
+  background-color: $white;
+	padding: 1rem 2rem;
+	width: 100%;
+
+	a.active {
+    background: linear-gradient($brand-primary, $brand-primary), 0 100%, no-repeat;
+    background-size: 100% 8%;
+		color: $link-color-hover;
+    text-decoration: none;
+	}
+}
+
+.headroom--unfixed {
+	position: relative;
+	transform: translateY(0);
+	transition: $transition-headroom;
+}
+
+.headroom--scrolled {
+	transition: $transition-headroom;
+}
+
+.headroom--unpinned {
+	position: fixed;
+	transform: translateY(-100%);
+	transition: $transition-headroom;
+}
+
+.headroom--pinned {
+	background-color: $background-color;
+	box-shadow: 0 5px 30px rgba(0,0,0,.2);
+	position: fixed;
+	transform: translateY(0%);
+	transition: $transition-headroom;
+}
+
+.site-logo {
+  margin-right: 10px;
+  margin-bottom: 0;
+}

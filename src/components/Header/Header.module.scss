@@ -1,0 +1,20 @@
+@import '../../../config/variables';
+
+.headroom {
+  background-color: $white;
+}
+
+.header {
+	background: $brand-secondary;
+	color: $white;
+	margin-bottom: 4rem;
+	padding: 6rem $distance;
+
+	h1 {
+		margin-bottom: 0 !important;
+	}
+
+  a {
+    text-decoration: none;
+  }
+}

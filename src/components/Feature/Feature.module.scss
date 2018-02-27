@@ -1,0 +1,29 @@
+@import '../../../config/variables';
+
+.feature {
+  padding: 8rem 5rem;
+  margin: 0 auto;
+  position: fixed;
+  height: 412px;
+  width: 100%;
+
+  h2 {
+    font-weight: 300;
+    font-size: 3rem;
+    color: $black;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  + div {
+    background-color: $white;
+    top: 412px;
+    position: relative;
+  }
+}
+
+.yellowLine {
+  background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+  background-size: 100% 40%;
+}
+

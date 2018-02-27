@@ -1,0 +1,15 @@
+@import '../../../config/variables';
+
+.footer {
+  background-color: $background-color;
+  color: lighten($grey, 15%);
+	padding: 3rem 4rem 2rem;
+	text-align: center;
+  font-size: 0.875rem; // 14px
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: lighten($grey, 15%);
+  }
+}
