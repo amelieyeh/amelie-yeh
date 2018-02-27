@@ -49,3 +49,120 @@
 	color: $black;
 	padding: .8em;
 }
+
+// ABOUT
+.about-container {
+  > div:first-child {
+    margin-bottom: 0;
+    text-align: center;
+    color: $black;
+
+    + div {
+      padding-top: 3rem;
+    }
+  }
+}
+
+.about {
+  padding-top: 9.5rem;
+  padding-bottom: 2rem;
+  color: $grey;
+  position: relative;
+
+  &__yellowLine {
+    background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+    background-size: 100% 40%;
+  }
+
+  &__avatar {
+    position: absolute;
+    top: -5rem;
+    width: 10rem;
+    height: 10rem;
+    left: 50%;
+    margin-left: -5rem;
+
+    &::after {
+      content: "";
+      width: 2px;
+      height: 2rem;
+      background-color: $grey;
+      position: absolute;
+      right: 50%;
+      margin-right: -2px;
+      bottom: -3.5rem;
+    }
+  }
+
+  &__img {
+    margin: 0;
+    border-radius: 50%;
+    border: 5px solid lighten($black, 50%);
+  }
+  
+  &__title {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  &__contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto 5rem;
+    width: 65%;
+  }
+
+  &__desc {
+    color: $grey;
+    margin-bottom: 3rem;
+  }
+
+  &__post,
+  &__link {
+    color: $grey;
+    padding: 0 10rem;
+  }
+
+  &__link {
+    vertical-align: middle;
+    padding: 0 10rem 3rem;
+
+    li {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      color: inherit;
+      display: inline-block;
+    }
+
+    i {
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+
+  &__post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 0 2rem 3rem;
+
+    a {
+      color: $grey;
+      display: block;
+      text-align: center;
+
+      &:hover {
+        color: $black;
+        font-weight: 500;
+        background: none;
+      }
+    }
+
+    i {
+      margin-bottom: 1rem;
+    }
+  }
+}

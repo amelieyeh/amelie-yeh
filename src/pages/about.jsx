@@ -4,26 +4,65 @@ import Header from '../components/Header/Header';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
+import avatar from '../../static/avatar.jpg';
 
 const About = () => (
   <div className="container about-container">
     <Helmet title={`About | ${config.siteTitle}`} />
-    <Header>About</Header>
+    <Header>About Me</Header>
     <Container text>
-      <h1>Hi!</h1>
-      <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by their place and
-            supplies it with the necessary regelialia. It is a paradisematic
-            country, in which roasted parts of sentences fly into your mouth.
-            Even the all-powerful Pointing has no control about the blind texts
-            it is an almost unorthographic life One day however a small line of
-            blind text by the name of Lorem Ipsum decided to leave for the far
-            World of Grammar. The Big Oxmox advised her not to do so, because
-            there were thousands.
-      </p>
+      <div className="about">
+        <div className="about__avatar">
+          <img src={avatar} className="about__img"/>
+        </div>
+        <p className="about__desc">
+          I am a experienced Front-end Designer and Web Developer who love prototyping things with designers and engineers, and keen to delivering good things to clients(friends).
+        </p>
+        <p>
+          Recently, learning JavaScript, ReactJS and others to improve my front-end skills. Yes, I like Learning-by-Doing!
+        </p>
+        <h3 className="about__title">Let's Work Together</h3>
+        <p className="about__desc">I'm currently available for select freelance work! Got cool ideas? You can find me on:</p>
+        
+        <div className="about__contact">
+          <div className="about__post">
+            <div className="about__post__item">
+              <a href="https://medium.com/me/stories/public" target="_blank">
+                <i className="fab fa-medium"></i>
+                <p className="link-hover-yellow">Medium</p>
+              </a>
+            </div>
+            <div className="about__post__item">
+              <a href="https://codepen.io/amelieyeh/" target="_blank">
+                <i className="fab fa-codepen"></i>
+                <p className="text__link">CodePen</p>
+              </a>
+            </div>
+          </div>
+          <div className="about__link">
+            <ul>
+              <li>
+                <a href="mailto:amelieyeh@gmail.com" className="text__link">
+                  <i className="fas fa-envelope-square"></i>
+                  Email
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/lichun-yeh" target="_blank" className="text__link">
+                  <i className="fab fa-linkedin"></i>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/amelieyeh" target="_blank" className="text__link">
+                  <i className="fab fa-github-square"></i>
+                  Github
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </Container>
     <Footer />
   </div>

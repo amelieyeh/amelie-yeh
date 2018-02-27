@@ -44,10 +44,12 @@
 	text-align: center;
 	transition: all .5s;
 	width: 100%;
+	display: grid;
 }
 
 .title {
 	font-size: 1.5rem;
+	align-self: center;
 
   h1 {
     color: $black;
