@@ -52,6 +52,8 @@
 
 // ABOUT
 .about-container {
+  background-color: $white;
+
   > div:first-child {
     margin-bottom: 0;
     text-align: center;
@@ -68,6 +70,8 @@
   padding-bottom: 2rem;
   color: $grey;
   position: relative;
+  margin: 0 auto;
+  max-width: 60rem;
 
   &__yellowLine {
     background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
@@ -97,7 +101,7 @@
   &__img {
     margin: 0;
     border-radius: 50%;
-    border: 5px solid lighten($black, 50%);
+    border: 5px solid lighten($grey, 40%);
   }
   
   &__title {
@@ -110,11 +114,6 @@
     grid-template-columns: 50% 50%;
     margin: 0 auto 5rem;
     width: 65%;
-  }
-
-  &__desc {
-    color: $grey;
-    margin-bottom: 3rem;
   }
 
   &__post,

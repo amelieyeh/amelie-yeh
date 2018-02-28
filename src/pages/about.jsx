@@ -5,6 +5,7 @@ import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import avatar from '../../static/avatar.jpg';
+import PostSection from '../components/Post/PostSection';
 
 const About = () => (
   <div className="container about-container">
@@ -15,14 +16,17 @@ const About = () => (
         <div className="about__avatar">
           <img src={avatar} className="about__img"/>
         </div>
-        <p className="about__desc">
+        <p>
           I am a experienced Front-end Designer and Web Developer who love prototyping things with designers and engineers, and keen to delivering good things to clients(friends).
         </p>
         <p>
           Recently, learning JavaScript, ReactJS and others to improve my front-end skills. Yes, I like Learning-by-Doing!
         </p>
+
+        <PostSection />
+        
         <h3 className="about__title">Let's Work Together</h3>
-        <p className="about__desc">I'm currently available for select freelance work! Got cool ideas? You can find me on:</p>
+        <p>I'm currently available for select freelance work! Got cool ideas? You can find me on:</p>
         
         <div className="about__contact">
           <div className="about__post">

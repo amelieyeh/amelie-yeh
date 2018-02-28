@@ -64,7 +64,7 @@ $row-size: calc( (#{$content-width} - #{$gutter} * (#{$columns} - 1)) / #{$colum
 // Try to keep it in sync with maxWidth of `gatsby-remark-images`
 
 $container: 100rem;
-$container-text: 55rem; // Longer texts should have a smaller max-width to improve readability
+$container-text: 60rem; // Longer texts should have a smaller max-width to improve readability
 
 // Responsive Typography
 // You can set your min and max font-size here

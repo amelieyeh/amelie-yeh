@@ -41,13 +41,15 @@ const Project = (props) => {
           )}
         </Palette>
       </div>
-      <Container>
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: postNode.html }}
-        />
-      </Container>
-      <Footer />
+      <div>
+        <Container>
+          <div
+            className={styles.content}
+            dangerouslySetInnerHTML={{ __html: postNode.html }}
+          />
+        </Container>
+        <Footer />
+      </div>
     </div>
   );
 };
