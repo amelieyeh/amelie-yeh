@@ -1,0 +1,88 @@
+{
+  "assetsByChunkName": {
+    "path---i-cook-newsroom": [
+      "path---i-cook-newsroom-1fa3e7ee49c06285dfcb.js",
+      "path---i-cook-newsroom-1fa3e7ee49c06285dfcb.js.map"
+    ],
+    "path---i-cook-cafe": [
+      "path---i-cook-cafe-53d1b8bcbac8452d435a.js",
+      "path---i-cook-cafe-53d1b8bcbac8452d435a.js.map"
+    ],
+    "component---src-templates-project-jsx": [
+      "component---src-templates-project-jsx-38ff7ae4a7255d528ccc.js",
+      "component---src-templates-project-jsx-38ff7ae4a7255d528ccc.js.map"
+    ],
+    "path---react-tic-tac-toe": [
+      "path---react-tic-tac-toe-006f63b55d39ab5bbd07.js",
+      "path---react-tic-tac-toe-006f63b55d39ab5bbd07.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-f41d353d91bb8928ed4c.js",
+      "component---src-layouts-index-jsx-f41d353d91bb8928ed4c.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---index": [
+      "path---index-6a8ae7dba9db6cfe8eca.js",
+      "path---index-6a8ae7dba9db6cfe8eca.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-3d8e5fea726c7a15483d.js",
+      "component---src-pages-about-jsx-3d8e5fea726c7a15483d.js.map"
+    ],
+    "commons": [
+      "commons-56d86438a9635fd326bc.js",
+      "build-js-styles.css",
+      "commons-56d86438a9635fd326bc.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-jsx-4503918ea3a16cfcdb75.js.map"
+    ],
+    "path---i-cook-ui-kit": [
+      "path---i-cook-ui-kit-1630d9bbf938b322fcbf.js",
+      "path---i-cook-ui-kit-1630d9bbf938b322fcbf.js.map"
+    ],
+    "path---i-cook": [
+      "path---i-cook-9c3fe7588be9f4122f82.js",
+      "path---i-cook-9c3fe7588be9f4122f82.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-a53874995c79915dc804.js",
+      "component---src-pages-index-jsx-a53874995c79915dc804.js.map"
+    ],
+    "app": [
+      "app-99bc6e4c6b33161389c8.js",
+      "build-js-styles.css",
+      "app-99bc6e4c6b33161389c8.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---java-script-30": [
+      "path---java-script-30-75b8963a5a3ec61dae97.js",
+      "path---java-script-30-75b8963a5a3ec61dae97.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
