@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "path---i-cook-newsroom": [
-      "path---i-cook-newsroom-1fa3e7ee49c06285dfcb.js",
-      "path---i-cook-newsroom-1fa3e7ee49c06285dfcb.js.map"
+      "path---i-cook-newsroom-2a24d27055009f66a570.js",
+      "path---i-cook-newsroom-2a24d27055009f66a570.js.map"
     ],
     "path---i-cook-cafe": [
-      "path---i-cook-cafe-53d1b8bcbac8452d435a.js",
-      "path---i-cook-cafe-53d1b8bcbac8452d435a.js.map"
+      "path---i-cook-cafe-ed05035b8458a094aff0.js",
+      "path---i-cook-cafe-ed05035b8458a094aff0.js.map"
     ],
     "component---src-templates-project-jsx": [
       "component---src-templates-project-jsx-38ff7ae4a7255d528ccc.js",
       "component---src-templates-project-jsx-38ff7ae4a7255d528ccc.js.map"
     ],
     "path---react-tic-tac-toe": [
-      "path---react-tic-tac-toe-006f63b55d39ab5bbd07.js",
-      "path---react-tic-tac-toe-006f63b55d39ab5bbd07.js.map"
+      "path---react-tic-tac-toe-4436dd8461f72250d433.js",
+      "path---react-tic-tac-toe-4436dd8461f72250d433.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -29,17 +29,17 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---index": [
-      "path---index-6a8ae7dba9db6cfe8eca.js",
-      "path---index-6a8ae7dba9db6cfe8eca.js.map"
+      "path---index-b561f266755f87aeb508.js",
+      "path---index-b561f266755f87aeb508.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-3d8e5fea726c7a15483d.js",
       "component---src-pages-about-jsx-3d8e5fea726c7a15483d.js.map"
     ],
     "commons": [
-      "commons-2ac0f93e031bc057f82c.js",
+      "commons-8d67b54d422472f26eed.js",
       "build-js-styles.css",
-      "commons-2ac0f93e031bc057f82c.js.map",
+      "commons-8d67b54d422472f26eed.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -51,12 +51,12 @@
       "component---src-pages-404-jsx-4503918ea3a16cfcdb75.js.map"
     ],
     "path---i-cook-ui-kit": [
-      "path---i-cook-ui-kit-1630d9bbf938b322fcbf.js",
-      "path---i-cook-ui-kit-1630d9bbf938b322fcbf.js.map"
+      "path---i-cook-ui-kit-7647b07b94bdd3e1cfd8.js",
+      "path---i-cook-ui-kit-7647b07b94bdd3e1cfd8.js.map"
     ],
     "path---i-cook": [
-      "path---i-cook-9c3fe7588be9f4122f82.js",
-      "path---i-cook-9c3fe7588be9f4122f82.js.map"
+      "path---i-cook-7c72d3103707138cf32d.js",
+      "path---i-cook-7c72d3103707138cf32d.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -67,14 +67,14 @@
       "component---src-pages-index-jsx-a53874995c79915dc804.js.map"
     ],
     "app": [
-      "app-99bc6e4c6b33161389c8.js",
+      "app-e7e21ddea52632c16546.js",
       "build-js-styles.css",
-      "app-99bc6e4c6b33161389c8.js.map",
+      "app-e7e21ddea52632c16546.js.map",
       "build-js-styles.css.map"
     ],
     "path---java-script-30": [
-      "path---java-script-30-75b8963a5a3ec61dae97.js",
-      "path---java-script-30-75b8963a5a3ec61dae97.js.map"
+      "path---java-script-30-a38591a0eb1e91e8371f.js",
+      "path---java-script-30-a38591a0eb1e91e8371f.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
