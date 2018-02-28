@@ -47,7 +47,8 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop -o"
+    "dev": "gatsby develop -o",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
@@ -58,6 +59,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
+    "gh-pages": "^1.1.0",
     "lodash": "^4.17.4",
     "rucksack-css": "^1.0.2"
   },
