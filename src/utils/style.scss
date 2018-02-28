@@ -3,6 +3,16 @@
 
 @import '../../config/variables';
 
+::-moz-selection {
+  background-color: $brand-primary;
+  color: $black;
+}
+
+::selection {
+  background-color: $brand-primary;
+  color: $black;
+}
+
 .container {
 	padding-top: 3.5rem;
 }
@@ -58,7 +68,7 @@
     margin-bottom: 0;
     text-align: center;
     color: $black;
-
+    
     + div {
       padding-top: 3rem;
     }
@@ -111,9 +121,8 @@
 
   &__contact {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 0 auto 5rem;
-    width: 65%;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2rem auto 5rem;
   }
 
   &__post,
@@ -163,5 +172,34 @@
     i {
       margin-bottom: 1rem;
     }
+  }
+}
+
+.section__contact {
+  text-align: center;
+}
+
+// LINK ICONS
+.link-icon {
+  display: inline-block;
+
+  &__medium:hover {
+    color: #000;
+  }
+
+  &__codepen:hover {
+    color: #212121;
+  }
+
+  &__email:hover {
+    color: #C63D2D;
+  }
+
+  &__linkedin:hover {
+    color: #0077b5;
+  }
+
+  &__github:hover {
+    color: #333;
   }
 }

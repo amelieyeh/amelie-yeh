@@ -1,11 +1,11 @@
 @import '../../../config/variables';
 
-.link-yellow-line {
-  background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
-  background-size: 100% 40%;
-  text-decoration: none;
-  font-weight: 600;
-}
+// .link-yellow-line {
+//   background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+//   background-size: 100% 40%;
+//   text-decoration: none;
+//   font-weight: 600;
+// }
 
 .wrapper {
 	display: flex;
@@ -20,7 +20,9 @@
 	}
 }
 
-.navigation, .name, .socialMedia {
+.navigation,
+.name, 
+.socialMedia {
 	display: flex;
 	flex: 1;
 }
@@ -43,10 +45,12 @@
     }
 
     &:hover,
-    &:focus,
-    &.active {
-      @extend .link-yellow-line;
+    &:focus {
       color: $black;
+      background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
+      background-size: 100% 40%;
+      text-decoration: none;
+      font-weight: 600;
     }
   }
 }
@@ -54,7 +58,8 @@
 .name {
 	h3 {
 		font-size: 23px !important;
-		margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    font-weight: 400;
 	}
 
 	a {

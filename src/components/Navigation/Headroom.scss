@@ -16,13 +16,6 @@ $transition-headroom: all .35s ease-in-out;
   background-color: $white;
 	padding: 1rem 2rem;
 	width: 100%;
-
-	a.active {
-    background: linear-gradient($brand-primary, $brand-primary), 0 100%, no-repeat;
-    background-size: 100% 8%;
-		color: $link-color-hover;
-    text-decoration: none;
-	}
 }
 
 .headroom--unfixed {

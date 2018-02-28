@@ -25,47 +25,52 @@ const About = () => (
 
         <PostSection />
         
-        <h3 className="about__title">Let's Work Together</h3>
-        <p>I'm currently available for select freelance work! Got cool ideas? You can find me on:</p>
-        
-        <div className="about__contact">
-          <div className="about__post">
-            <div className="about__post__item">
-              <a href="https://medium.com/me/stories/public" target="_blank">
-                <i className="fab fa-medium"></i>
-                <p className="link-hover-yellow">Medium</p>
+        <section className="section__contact">
+          <h3 className="about__title">Got cool ideas?</h3>
+          <p>I'm currently available for select freelance work! Let's Work Together! You can find me on</p>
+          
+          <div className="about__contact">
+            <div>
+              <a href="https://medium.com/me/stories/public"
+                 target="_blank"
+                 className="link-icon link-icon__medium">
+                <i className="fab fa-medium fa-5x"></i>
+                <p>Medium</p>
               </a>
             </div>
-            <div className="about__post__item">
-              <a href="https://codepen.io/amelieyeh/" target="_blank">
-                <i className="fab fa-codepen"></i>
-                <p className="text__link">CodePen</p>
+            <div>
+              <a href="https://codepen.io/amelieyeh/"
+                 target="_blank"
+                 className="link-icon link-icon__codepen">
+                <i className="fab fa-codepen fa-5x"></i>
+                <p>CodePen</p>
+              </a>
+            </div>
+            <div>
+              <a href="mailto:amelieyeh@gmail.com"
+                 className="link-icon link-icon__email">
+                <i className="fas fa-envelope-square fa-5x"></i>
+                <p>Email</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/lichun-yeh"
+                 target="_blank"
+                 className="link-icon link-icon__linkedin">
+                <i className="fab fa-linkedin fa-5x"></i>
+                <p>LinkedIn</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/amelieyeh"
+                 target="_blank"
+                 className="link-icon link-icon__github">
+                <i className="fab fa-github-square fa-5x"></i>
+                <p>Github</p>
               </a>
             </div>
           </div>
-          <div className="about__link">
-            <ul>
-              <li>
-                <a href="mailto:amelieyeh@gmail.com" className="text__link">
-                  <i className="fas fa-envelope-square"></i>
-                  Email
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/lichun-yeh" target="_blank" className="text__link">
-                  <i className="fab fa-linkedin"></i>
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/amelieyeh" target="_blank" className="text__link">
-                  <i className="fab fa-github-square"></i>
-                  Github
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </section>
       </div>
     </Container>
     <Footer />
