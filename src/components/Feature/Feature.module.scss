@@ -6,6 +6,12 @@
   position: fixed;
   height: 412px;
   width: 100%;
+  display: grid;
+
+  @include for-phone-only() {
+    height: 200px;
+    padding: 0 1rem;
+  }
 
   h2 {
     font-weight: 300;
@@ -13,12 +19,21 @@
     color: $black;
     margin: 0 auto;
     text-align: center;
+    align-self: center;
+
+    @include for-phone-only() {
+      font-size: 1.8rem;
+    }
   }
 
   + div {
     background-color: $white;
     top: 412px;
     position: relative;
+
+    @include for-phone-only() {
+      top: 200px;
+    }
   }
 }
 
@@ -26,4 +41,3 @@
   background: linear-gradient($brand-primary, $brand-primary) 0 100% no-repeat;
   background-size: 100% 40%;
 }
-

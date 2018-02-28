@@ -183,6 +183,12 @@
 .link-icon {
   display: inline-block;
 
+  @include for-phone-only() {
+    svg {
+      width: .575em !important;
+    }
+  }
+
   &__medium:hover {
     color: #000;
   }

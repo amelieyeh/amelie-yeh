@@ -9,6 +9,10 @@
 	max-width: 60rem;
 	color: $grey;
 
+	@include for-phone-only() {
+		font-size: 1.25rem;
+	}
+
   a {
     text-decoration: underline;
 
