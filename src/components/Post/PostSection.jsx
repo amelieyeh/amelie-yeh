@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Post from './Post';
-import postData from './postData';
-import penData from './penData';
+import postData from '../../../static/postData';
+import penData from '../../../static/penData';
 import style from './Post.module.scss';
 
 class PostSection extends Component {
