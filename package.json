@@ -60,7 +60,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
     "gh-pages": "^1.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "rucksack-css": "^1.0.2"
   },
   "browserslist": [
