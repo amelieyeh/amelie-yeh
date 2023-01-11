@@ -28,7 +28,7 @@
     "gatsby-remark-images": "^1.5.41",
     "gatsby-remark-responsive-iframe": "^1.4.16",
     "gatsby-source-filesystem": "^1.5.16",
-    "gatsby-transformer-remark": "^1.7.30",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^1.6.16",
     "react-burger-menu": "^2.2.3",
     "react-headroom": "^2.2.2",
